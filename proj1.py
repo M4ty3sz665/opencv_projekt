@@ -1,4 +1,4 @@
-import  cv2
+import cv2
 import numpy as np
 frameWidth = 640
 frameHeight = 480
@@ -16,7 +16,7 @@ myColorValues = [[51,153,255],          ## BGR
                  [0,255,0],
                  [255,0,0]]
 
-myPoints =  []  ## [x , y , colorId ]
+myPoints =  []  ## [x , y , colorId ]q
 
 def findColor(img,myColors,myColorValues):
     imgHSV = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
